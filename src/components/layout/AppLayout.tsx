@@ -15,7 +15,7 @@ interface NavigationItem {
 
 const roleNavigation: Record<UserRole, NavigationItem[]> = {
   SECRETARIA: [
-    { label: 'Professores', to: '/secretaria', icon: 'teachers', activePaths: ['/secretaria/usuarios'] },
+    { label: 'Usuários', to: '/secretaria', icon: 'teachers', activePaths: ['/secretaria/usuarios'] },
     { label: 'Ausências', to: '/secretaria/ausencias', icon: 'absence' },
     { label: 'Justificativas', to: '/secretaria/justificativas', icon: 'justifications' },
     { label: 'Reposições', to: '/secretaria/reposicoes', icon: 'makeups' },
